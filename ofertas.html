@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barberia</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <div id="msg" class="msg"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__titulo">Barberia.</h2>
+            </div>
+
+            <ul class="nav__link ">
+                <li class="nav__items">
+                    <a href="index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="ofertas.html" class="nav__links">Ofertas</a>
+                </li>
+                <li class="nav__items">
+                    <a href="preguntas.html" class="nav__links">Preguntas</a>
+                </li>
+
+            </ul>
+
+            <div class="nav__menu">
+                <img src="" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="header__container container">
+            <h1 class="header__titulo">Encuentra Ofertas Top.</h1>
+            <p class="header__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque quam consequatur
+                deleniti consectetur voluptas ad labore architecto possimus laudantium nesciunt!</p>
+            <a href="#sus" class="cta">Suscribete</a>
+        </section>
+    </header>
+
+    <section class="carrusel">
+        <div class="carrusel__top">
+            <ul class="slider">
+                <li class="show">
+                    <img
+                        src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+                </li>
+                <li>
+                    <img
+                        src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+                </li>
+                <li>
+                    <img
+                        src="https://images.unsplash.com/photo-1519500528352-2d1460418d41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+                </li>
+            </ul>
+
+            <ul class="btnimg">
+                <li>
+                    <span class="shownum"></span>
+                </li>
+                <li>
+                    <span></span>
+                </li>
+                <li>
+                    <span></span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="precios container">
+        <h2 class="subtitulo">Obten tu plan perfecto</h2>
+
+        <div class="precios__tarjeta">
+            <div class="precios__element">
+                <p class="precios__nombre">OfertaA</p>
+                <h3 class="precios__precios">$1300/mes</h3>
+
+                <div class="precios__items">
+                    <p class="precios__txt">Corte</p>
+                    <p class="precios__txt">Corte</p>
+                    <p class="precios__txt">Corte</p>
+                </div>
+
+                <a href="#" class="precios__cta">Empieza ahora</a>
+            </div>
+
+
+            <div class="precios__element precios__element--best">
+                <p class="precios__nombre">OfertaB</p>
+                <h3 class="precios__precios">$3000/mes</h3>
+
+                <div class="precios__items">
+                    <p class="precios__txt">Corte</p>
+                    <p class="precios__txt">Corte</p>
+                    <p class="precios__txt">Corte</p>
+                </div>
+
+                <a href="#" class="precios__cta">Empieza ahora</a>
+            </div>
+
+
+            <div class="precios__element">
+                <p class="precios__nombre">OfertaC</p>
+                <h3 class="precios__precios">$4000/mes</h3>
+
+                <div class="precios__items">
+                    <p class="precios__txt">Corte</p>
+                    <p class="precios__txt">Corte</p>
+                    <p class="precios__txt">Corte</p>
+                </div>
+
+                <a href="#" class="precios__cta">Empieza ahora</a>
+            </div>
+
+
+        </div>
+    </section>
+    <footer class="footer">
+        <section class="footer__container container">
+            <form method="POST" action="#" class="footer__form">
+                <h2 class="footer__suscribir" id="sus">Suscribete...</h2>
+                <div class="footer__inputs">
+                    <input type="text" placeholder="Nombre:" class="footer__input" id="nombre">
+                    <input type="email" placeholder="E-mail:" class="footer__input" id="mail">
+                    <input type="number" placeholder="Celu." class="footer__input" id="celu">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+                <span class="error">Ingresa los datos correctamente: Nombre Apellido. mail@mail.com. 2664010101</span>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <nav class="nav">
+                <h2 class="footer__titulo">Barberia.</h2>
+
+                <ul class="nav__link nav__link">
+                    <li class="nav__items">
+                        <a href="index.html" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="ofertas.html" class="nav__links">Ofertas</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="preguntas.html" class="nav__links">Preguntas</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Yami Chia</h3>
+        </section>
+    </footer>
+
+    <script src="js/carrusel.js"></script>
+    <script src="js/validarFormulario.js"></script>
+</body>
+
+</html>
